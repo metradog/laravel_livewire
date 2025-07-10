@@ -5,4 +5,7 @@
         <li>Name: {{ $slug }}</li>
         <li>Search: {{ $search }}</li>
     </ul>
+
+   
+    
 </div>
