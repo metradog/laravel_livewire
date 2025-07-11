@@ -53,10 +53,10 @@
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
                 <a class="p-2 link-secondary" href="{{ route('home') }}" wire:navigate>Home</a>
-                <a class="p-2 link-secondary" href="{{ route('home', ['id' => 1, 'slug' => 'maria']) }}"
+                <a class="p-2 link-secondary" href="{{ route('parametros', ['id' => 1, 'slug' => 'maria']) }}"
                     wire:navigate>Parámetros</a>
-                <a class="p-2 link-secondary" href="{{ route('home') }}" wire:navigate>Inline</a>
-                <a class="p-2 link-secondary" href="{{ route('home') }}" wire:navigate>Actions</a>
+                <a class="p-2 link-secondary" href="{{ route('inline') }}" wire:navigate>Inline</a>
+                <a class="p-2 link-secondary" href="{{ route('ruta_actions') }}" wire:navigate>Actions</a>
                 <a class="p-2 link-secondary" href="{{ route('home') }}">Eventos</a>
                 <a class="p-2 link-secondary" href="{{ route('home') }}" wire:navigate>Volt</a>
                 <a class="p-2 link-secondary" href="{{ route('home') }}">Formularios</a>

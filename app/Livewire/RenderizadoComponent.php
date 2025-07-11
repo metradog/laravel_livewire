@@ -23,4 +23,9 @@ class RenderizadoComponent extends Component
         
     }
 
+    public function actualizarHora()
+    {
+        $this->horaActual = now()->format('H:i:s');
+    }
+
 }

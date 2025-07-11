@@ -5,6 +5,12 @@ namespace App\Livewire;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
+/**
+ * 
+ * #[Title('Pagina Inicio')]
+ * Es una forma de definir el titulo de la pagina
+ */
+
 #[Title('Pagina Inicio')]
 class HomeComponent extends Component
 {
