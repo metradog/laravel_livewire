@@ -1,3 +1,6 @@
+// funciones.js - Archivo de funciones JavaScript para Livewire
+// Este archivo contiene funciones que se ejecutan al iniciar Livewire y manejan eventos específicos
+// Importar livewire:init para inicializar Livewire
 document.addEventListener('livewire:init', () => {
     //console log
     Livewire.on('log', () => {
