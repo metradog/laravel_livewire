@@ -59,7 +59,7 @@
                 <a class="p-2 link-secondary" href="{{ route('ruta_actions') }}" wire:navigate>Actions</a>
                 <a class="p-2 link-secondary" href="{{ route('ruta_eventos') }}">Eventos</a>
                 <a class="p-2 link-secondary" href="{{ route('ruta_volt_ejemplo') }}" wire:navigate>Volt</a>
-                <a class="p-2 link-secondary" href="{{ route('home') }}">Formularios</a>
+                <a class="p-2 link-secondary" href="{{ route('ruta_formularios') }}">Formularios</a>
             </nav>
         </div>
     </div>

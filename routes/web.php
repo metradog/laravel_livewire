@@ -6,6 +6,7 @@ use App\Livewire\ParametrosComponent;
 use App\Livewire\InlineComponent;
 use App\Livewire\ActionsComponent;
 use App\Livewire\EventosComponent;
+use App\Livewire\FormulariosComponent;
 
 use Livewire\Volt\Volt;
 
@@ -23,6 +24,7 @@ Route::get('/parametros/{id}/{slug}', ParametrosComponent::class)->name('paramet
 Route::get('/inline', InlineComponent::class)->name('inline');
 Route::get('/actions', ActionsComponent::class)->name('ruta_actions');
 Route::get('/eventos', EventosComponent::class)->name('ruta_eventos');
+Route::get('/formularios', FormulariosComponent::class)->name('ruta_formularios');
 
 
 // Ruta para el componente Volt
